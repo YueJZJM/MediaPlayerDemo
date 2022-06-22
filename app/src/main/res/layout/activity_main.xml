@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/video_mp4"
+            android:textAllCaps="false"
+            android:text="播放 MP4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/video_3GP"
+            android:textAllCaps="false"
+            android:text="播放 3GP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/video_AVI"
+            android:textAllCaps="false"
+            android:text="播放 AVI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/video_ASF"
+            android:textAllCaps="false"
+            android:text="播放 ASF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/video_MOV"
+            android:textAllCaps="false"
+            android:text="播放 MOV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/video_WMA"
+            android:textAllCaps="false"
+            android:text="播放 WMA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/video_WMV"
+            android:textAllCaps="false"
+            android:text="播放 WMV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/video_mpeg"
+            android:textAllCaps="false"
+            android:text="播放 MPEG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/video_mpg"
+            android:textAllCaps="false"
+            android:text="播放 MPG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/video_rm"
+            android:textAllCaps="false"
+            android:text="播放 RM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/video_rmvb"
+            android:textAllCaps="false"
+            android:text="播放 RMVB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>
